@@ -1,0 +1,22 @@
+.uf__board {
+  display: grid;
+  column-gap: 0;
+  margin-left: 20px;
+}
+.uf__cell {
+  width: 30px;
+  height: 30px;
+  border-collapse: collapse;
+}
+.uf__cell-up {
+  border-top: 1px solid #000;
+}
+.uf__cell-down {
+  border-bottom: 1px solid #000;
+}
+.uf__cell-left {
+  border-left: 1px solid #000;
+}
+.uf__cell-right {
+  border-right: 1px solid #000;
+}
